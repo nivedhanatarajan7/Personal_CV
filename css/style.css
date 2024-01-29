@@ -161,13 +161,12 @@ a:hover {
   #experiencelist dt {
     padding-bottom: 50px;
     margin: 0;
-    flex-basis: 22%;
   }
 
   #experiencelist dl{
-    display: flex;
-    flex-basis: 80%;
-    flex-flow: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     
   }
 
@@ -232,3 +231,5 @@ a:hover {
     background-color: #BCA37F;
     color: black;
   }
+
+  
