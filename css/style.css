@@ -161,12 +161,12 @@ a:hover {
   #experiencelist dt {
     padding-bottom: 50px;
     margin: 0;
-    flex-basis: 25%;
+    flex-basis: 22%;
   }
 
   #experiencelist dl{
     display: flex;
-    flex-basis: 70%;
+    flex-basis: 80%;
     flex-flow: wrap;
     
   }
