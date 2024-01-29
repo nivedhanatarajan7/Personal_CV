@@ -175,9 +175,11 @@ a:hover {
     padding-bottom: 50px;
     width:30%;
     text-align: left;
+    flex-basis: 50%;
   }
   #skillslist dd{
     padding-bottom: 50px;
+    flex-basis: 30%;
     width:60%;
   }
 
