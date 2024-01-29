@@ -27,7 +27,7 @@ nav > p > a:hover {
 }
 
 footer{
-    background-color: #BCA377;
+    background-color: #907d5c;
     border-top: solid 4px black;
     color: #000000;
     display: flex;
@@ -60,7 +60,7 @@ footer > p > a:hover {
   height: 400px;
 }
 
-h2, p {
+.biocontext, h2 {
   text-align: center;
 }
 
@@ -144,33 +144,46 @@ a:hover {
     width: 50%;
     margin: auto;
   }
+  
   .list {
     padding: 2px 16px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
   }
 
   h3 {
     text-align: center;
   }
 
-  #languagelist{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-  }
-
-  #experiencelist{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  #skillslist{
+  #languagelist ul{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin-top: 7%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #experiencelist dt {
+    padding-bottom: 50px;
+    margin: 0;
+    flex-basis: 25%;
+  }
+
+  #experiencelist dl{
+    display: flex;
+    flex-basis: 70%;
+    flex-flow: wrap;
+    
+  }
+
+  #skillslist dt{
+    padding-bottom: 50px;
+    width:30%;
+    text-align: left;
+  }
+  #skillslist dd{
+    padding-bottom: 50px;
+    width:60%;
+  }
+
+  #skillslist dl{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .three-col {
